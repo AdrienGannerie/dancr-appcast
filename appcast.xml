@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Dancr App - Update Configuration</title>
+        <item>
+            <title>Version 0.5.2</title>
+            <description>Test pour la mise en place de mise à jour automatique.</description>
+            <pubDate>Mon, 6 Jan 2025 12:00:00 +0000</pubDate>
+            <!-- Configuration pour Android -->
+            <enclosure 
+                url="https://play.google.com/store/apps/details?id=com.dancr.app" 
+                sparkle:version="0.5.2" 
+                sparkle:os="android" 
+                sparkle:minAppVersion="0.5.0" 
+            />
+            <!-- Configuration pour iOS -->
+            <enclosure 
+                url="https://testflight.apple.com/join/DXnYGw3e" 
+                sparkle:version="0.5.2" 
+                sparkle:os="ios" 
+                sparkle:minAppVersion="0.5.0" 
+            />
+        </item>
+    </channel>
+</rss>
