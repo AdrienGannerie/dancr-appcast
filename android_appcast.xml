@@ -3,6 +3,66 @@
     <channel>
         <title>Dancr Updates</title>
         <item>
+            <title>Version 0.6.4</title>
+            <description>Mise à jour de l'application</description>
+            <pubDate>Mon, 15 Jan 2025 07:57:00 +0000</pubDate>
+            <enclosure 
+                url="https://play.google.com/store/apps/details?id=com.dancr.app"
+                sparkle:version="0.6.4"
+                sparkle:os="android"
+                sparkle:minAppVersion="0.6.4"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 0.6.3</title>
+            <description>Mise à jour de l'application</description>
+            <pubDate>Mon, 14 Jan 2025 08:59:00 +0000</pubDate>
+            <enclosure 
+                url="https://play.google.com/store/apps/details?id=com.dancr.app"
+                sparkle:version="0.6.3"
+                sparkle:os="android"
+                sparkle:minAppVersion="0.6.3"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 0.6.2</title>
+            <description>Mise à jour de l'application</description>
+            <pubDate>Mon, 14 Jan 2025 08:59:00 +0000</pubDate>
+            <enclosure 
+                url="https://play.google.com/store/apps/details?id=com.dancr.app"
+                sparkle:version="0.6.2"
+                sparkle:os="android"
+                sparkle:minAppVersion="0.6.2"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 0.6.1</title>
+            <description>Mise à jour de l'application</description>
+            <pubDate>Mon, 14 Jan 2025 08:59:00 +0000</pubDate>
+            <enclosure 
+                url="https://play.google.com/store/apps/details?id=com.dancr.app"
+                sparkle:version="0.6.1"
+                sparkle:os="android"
+                sparkle:minAppVersion="0.6.1"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 0.6.0</title>
+            <description>Mise à jour de l'application</description>
+            <pubDate>Mon, 14 Jan 2025 08:59:00 +0000</pubDate>
+            <enclosure 
+                url="https://play.google.com/store/apps/details?id=com.dancr.app"
+                sparkle:version="0.6.0"
+                sparkle:os="android"
+                sparkle:minAppVersion="0.6.0"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.5.2</title>
             <description>Test pour la mise en place de mise à jour automatique.</description>
             <pubDate>Mon, 06 Jan 2025 12:00:00 +0000</pubDate>
@@ -14,7 +74,7 @@
                 type="application/octet-stream"
             />
         </item>
-                <item>
+        <item>
             <title>Version 0.5.3</title>
             <description>Test pour la mise en place de mise à jour automatique.</description>
             <pubDate>Mon, 06 Jan 2025 20:00:00 +0000</pubDate>
@@ -26,7 +86,7 @@
                 type="application/octet-stream"
             />
         </item>
-                <item>
+        <item>
             <title>Version 0.5.4</title>
             <description>Test pour la mise en place de mise à jour automatique.</description>
             <pubDate>Mon, 07 Jan 2025 12:00:00 +0000</pubDate>
