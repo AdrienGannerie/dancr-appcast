@@ -1,0 +1,145 @@
+"I am developing FightLearner, a cross-platform mobile application dedicated to martial arts and combat sports learning progression. The project is in its initial phase with both domains fightlearner.app (primary domain) and fightlearner.com (redirect) already secured.
+
+Main Objective: 
+Create a comprehensive platform that guides martial arts practitioners through their learning journey by combining:
+- Personalized progression tracking
+- Structured learning resources
+- Community features
+- Training planning tools
+
+Technical Infrastructure:
+- Primary domain: fightlearner.app
+- Secondary domain: fightlearner.com
+- Professional emails: via Google Workspace (in configuration)
+- Social presence: Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Discord, Reddit
+
+Technical Architecture:
+- Cross-platform application developed with Flutter
+- Available on iOS and Android
+- Backend: Firebase (Authentication, Firestore, Storage)
+- Architecture: Clean Architecture for better maintainability and scalability
+- State Management: BLoC pattern
+- NoSQL database with Firestore
+
+Brand Identity:
+- Name: FightLearner
+- Positioning: Learning and progression platform for combat sports
+- Target audience: Martial arts and combat sports practitioners, from beginners to advanced
+- Potential slogan: "Your Fighting Journey Starts Here"
+
+Key Features:
+1. Personalized progression system
+2. Techniques and tutorials library
+3. Training tracking tools
+4. Community features
+5. Training planning
+6. Nutritional guidance adapted to combat sports
+
+The project emphasizes the "learner" aspect rather than just learning, highlighting a user-centered approach and personal progression.
+
+Technical Development Guidelines:
+
+Dart General Guidelines:
+
+Basic Principles:
+- Use English for all code and documentation
+- Always declare types for variables and functions (parameters and return value)
+  - Avoid using any
+  - Create necessary types
+- Don't leave blank lines within functions
+- One export per file
+
+Nomenclature:
+- PascalCase for classes
+- camelCase for variables, functions, and methods
+- underscores_case for files and directories
+- UPPERCASE for environment variables
+  - Avoid magic numbers and define constants
+- Start functions with verbs
+- Use verbs for boolean variables (isLoading, hasError, canDelete, etc.)
+- Use complete words instead of abbreviations with correct spelling
+  - Except standard abbreviations (API, URL, etc.)
+  - Except well-known abbreviations:
+    - i, j for loops
+    - err for errors
+    - ctx for contexts
+    - req, res, next for middleware function parameters
+
+Functions:
+- Write short functions with single purpose (< 20 instructions)
+- Name functions with verb + something
+  - Boolean returns: isX, hasX, canX
+  - Void returns: executeX, saveX
+- Avoid nesting blocks through:
+  - Early checks and returns
+  - Utility function extraction
+- Use higher-order functions
+- Use default parameter values
+- Implement RO-RO principle
+- Maintain single level of abstraction
+
+Data Management:
+- Encapsulate data in composite types
+- Use classes with internal validation
+- Prefer immutability
+  - readonly for static data
+  - as const for static literals
+
+Classes:
+- Follow SOLID principles
+- Prefer composition over inheritance
+- Use interfaces for contracts
+- Keep classes small and focused:
+  - < 200 instructions
+  - < 10 public methods
+  - < 10 properties
+
+Exception Handling:
+- Use exceptions for unexpected errors
+- Catch exceptions only to:
+  - Fix expected issues
+  - Add context
+  - Otherwise use global handler
+
+Testing:
+- Follow Arrange-Act-Assert convention
+- Clear test variable naming (inputX, mockX, actualX, expectedX)
+- Unit tests for public functions
+- Acceptance tests for modules
+- Follow Given-When-Then convention
+
+Flutter Specific Guidelines:
+
+Architecture:
+- Implement clean architecture with:
+  - Modules organization
+  - Controllers
+  - Services
+  - Repositories
+  - Entities
+  - Use cases
+- Use repository pattern for data persistence
+- Implement controller pattern with flutter_Bloc
+- Use Bloc/Cubit for state management
+- Implement freezed for UI states
+- Controllers handle method inputs and UI state updates
+- Use getIt for dependency management:
+  - Singleton for services/repositories
+  - Factory for use cases
+  - Lazy singleton for controllers
+- Implement AutoRoute for navigation
+
+Code Organization:
+- Use extensions for reusable code
+- Implement ThemeData for styling
+- Use AppLocalizations for translations
+- Define constant values
+- Maintain flat widget trees
+- Break down complex widgets
+- Use const constructors when possible
+
+Testing:
+- Implement standard widget testing
+- Create integration tests for API modules
+
+This project follows a user-centered approach, focusing on delivering a seamless learning experience while maintaining high technical standards and clean code practices."
