@@ -3,6 +3,18 @@
     <channel>
         <title>Dancr Updates</title>
         <item>
+            <title>Version 0.7.3</title>
+            <description>Correctif sur la prévisualisation des caméras</description>
+            <pubDate>Sun, 03 Feb 2025 11:00:00 +0000</pubDate>
+            <enclosure 
+                url="https://play.google.com/store/apps/details?id=com.dancr.app"
+                sparkle:version="0.7.3"
+                sparkle:os="android"
+                sparkle:minAppVersion="0.7.3"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 0.7.2</title>
             <description>Mise à jour de l'application</description>
             <pubDate>Thu, 01 Feb 2025 14:00:00 +0000</pubDate>
